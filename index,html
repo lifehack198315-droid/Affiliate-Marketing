@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Superior Marketing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#">
+        <div class="logo"></div>
+        <span id="brandName">Superior Marketing</span>
+      </a>
+
+      <div class="actions">
+        <div class="input">
+          <input id="searchInput" placeholder="Search products…" />
+        </div>
+
+        <select id="categorySelect" class="select">
+          <option value="all">All Categories</option>
+        </select>
+
+        <a class="btn" href="#disclosure">Disclosure</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-grid">
+          <div>
+            <h1 class="h-title">Find the best picks, fast.</h1>
+            <p class="h-sub" id="tagline"></p>
+            <div class="pills">
+              <span class="pill">Curated Picks</span>
+              <span class="pill">Deal Alerts</span>
+              <span class="pill">Real Reviews</span>
+              <span class="pill">Trusted Links</span>
+            </div>
+          </div>
+          <div class="kpi">
+            <strong id="resultCount">0 items</strong>
+            <span>Use search + categories to filter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Featured Products</h2>
+          <p>Click “View Deal” to open your affiliate link.</p>
+        </div>
+      </div>
+
+      <section id="grid" class="grid"></section>
+    </div>
+  </main>
+
+  <footer class="footer" id="disclosure">
+    <div class="container">
+      <p id="disclaimer"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
